@@ -1,5 +1,5 @@
-# Project Overview
-This program solves time dependent Schrodinger equation within a box for two different scenarios zero and harmonic_well potentials 
+# Overview
+This program solves time dependent Schrodinger equation within a box for two different scenarios, zero and harmonic_well potentials, 
 using the Cranck-Nicolson method.
 
 
