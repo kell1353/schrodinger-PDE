@@ -1,0 +1,18 @@
+&integration
+	length = 5.0,
+    n_points = 100,
+    n_steps = 100,
+    delta_t = 0.05
+/
+&wave_function
+	width = 0.5,
+    center = 0.0,
+    potential_scenario = 'zero'
+/
+&oscillator
+	k_oscillator = 0.0
+/
+&output
+	time_file = 'zero_time_results.dat',
+	density_file = 'zero_density_results.dat'
+/

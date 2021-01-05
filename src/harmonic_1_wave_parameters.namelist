@@ -1,0 +1,18 @@
+&integration
+	length = 5.0,
+    n_points = 100,
+    n_steps = 100,
+    delta_t = 0.05
+/
+&wave_function
+	width = 0.5,
+    center = 0.0,
+    potential_scenario = 'harmonic_well'
+/
+&oscillator
+	k_oscillator = 1.0
+/
+&output
+	time_file = 'harmonic_well_1_time_results.dat',
+	density_file = 'harmonic_well_1_density_results.dat'
+/
